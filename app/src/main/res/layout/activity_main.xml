@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/constraintarkaplan"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/giristext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="41dp"
+        android:text="Hoşgeldiniz"
+        android:textColor="@color/textColor"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/girisemail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/girisparolaunuttum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:drawableLeft="@drawable/lock"
+        android:text="Parolamı unuttum"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/girisparola" />
+
+    <TextView
+        android:id="@+id/girisyeniuyelik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="4dp"
+        android:drawableLeft="@drawable/add"
+        android:text="Yeni Üyelik"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/girisyapbutton"
+        app:layout_constraintTop_toBottomOf="@+id/girisyapbutton" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="25dp"
+        android:text="Üye olarak veya giriş yaparak Kullanım ve Gizlilik Koşullarını kabul etmiş sayılırsınız. "
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/girisemail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="193dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edittextarkaplan"
+        android:ems="10"
+        android:hint="E-mail adresinizi giriniz."
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColor"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/girisparola"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edittextarkaplan"
+        android:ems="10"
+        android:hint="Parolanızı giriniz."
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColor"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/girisemail" />
+
+    <Button
+        android:id="@+id/girisyapbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/buttonarkaplan"
+        android:text="Giriş Yap"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/girisparolaunuttum" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navbar"
+    app:startDestination="@id/birincifragment">
+
+    <fragment
+        android:id="@+id/birincifragment"
+        android:name="com.example.diyetisyenuyg.birincifragment"
+        android:label="fragment_birincifragment"
+        tools:layout="@layout/fragment_birincifragment" />
+    <fragment
+        android:id="@+id/ucuncuFragment"
+        android:name="com.example.diyetisyenuyg.ucuncuFragment"
+        android:label="fragment_ucuncu"
+        tools:layout="@layout/fragment_ucuncu" />
+    <fragment
+        android:id="@+id/dorduncuFragment"
+        android:name="com.example.diyetisyenuyg.dorduncuFragment"
+        android:label="fragment_dorduncu"
+        tools:layout="@layout/fragment_dorduncu" />
+    <fragment
+        android:id="@+id/aramalarFragment"
+        android:name="com.example.diyetisyenuyg.AramalarFragment"
+        android:label="fragment_aramalar"
+        tools:layout="@layout/fragment_aramalar" />
+</navigation>

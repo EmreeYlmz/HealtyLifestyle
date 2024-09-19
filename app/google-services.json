@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "947734448031",
+    "firebase_url": "https://diyetisyen-724a3-default-rtdb.firebaseio.com",
+    "project_id": "diyetisyen-724a3",
+    "storage_bucket": "diyetisyen-724a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947734448031:android:914964c1275da718e0dfaa",
+        "android_client_info": {
+          "package_name": "com.example.diyetisyenuyg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947734448031-bjkeck01913k8grku64fidt3ukk279jb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.diyetisyenuyg",
+            "certificate_hash": "63373e5d710e3f6efb391a1b76bf4c61bbcd1bb1"
+          }
+        },
+        {
+          "client_id": "947734448031-atsellg1m5kl3paf19aqq1n48fnfc7ob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZkZsP7fDq77BXRmZYaW0B7Zb4CQL3sKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947734448031-atsellg1m5kl3paf19aqq1n48fnfc7ob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
