@@ -23,3 +23,5 @@ Teknolojiler
 * Ana Sayfa: Besinler hakkında bilgi veren gönderiler görüntülenir.
 * Diyet Listesi: Hastalar, diyetisyenlerinden gelen diyet listelerini görür ve takip eder.
 * Takip Sistemi: Doktorlar hastalarını takip edebilir, hastalar da doktorlarından diyet listesi alabilir.
+
+    issues e görselleri eklenmiştir.
